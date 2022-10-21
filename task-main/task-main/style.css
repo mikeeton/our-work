@@ -1,0 +1,163 @@
+.third{
+    display: flex;
+    background-color: #9F8974;
+    height: 700px;
+    margin: 24px;
+    overflow: hidden;
+}
+.part{
+    padding: 40px;
+}
+.type{
+    display: flex;
+}
+.business{
+    padding-right: 3px;
+}
+.family{
+    padding-left: 3px;
+}
+.criminal{
+    padding-right: 3px;
+}
+.personal{
+    padding-left: 3px;
+}
+.businesss{
+    padding-right: 3px;
+}
+.criminals{
+    padding-left: 3px;
+}
+.hee{
+    text-align: center;  
+}
+.images{
+    display: flex;
+
+}
+.img{
+    width: 400px;
+    height: 380px;
+    padding: 7px;
+}
+.gloss{
+    display: flex;
+
+}
+.rec{
+    padding-left: 20px;
+    padding-top: 0;
+    padding-right: 20px;
+}
+.text{
+    padding-left: 20px;
+}
+.clients{
+    padding-left: 20px;
+}
+.quote{
+    padding-left: 20px;
+}
+.fifth{
+    background-image: linear-gradient(to bottom, rgba(241, 219, 118, 0.52), rgba(77, 71, 197, 0.73)),
+    url(imgu.jpg) ;
+    width: 98.8%;
+    padding-top: 40px;
+    position: absolute;
+    display: flex;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 500px;
+    overflow: hidden;
+}
+.cup{
+    position: relative;
+    width: 60%;
+    padding-left: 750px;
+    color: black;
+    padding-top: 35px;
+}
+.left{
+    padding-top: 200px;
+    padding-left: 50px;
+}
+input{
+    height: 40px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: black;
+    border: 1px solid #9F8974;
+    border-radius: 3px;
+    background: rgba(105, 105, 105, 0);
+}
+.case{
+    height: 100px;
+    width: 332px;
+    border-color: #9F8974;
+}
+.forms{
+    padding-top: 20px;
+}
+.cases{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.butt{
+    width: 100px;
+    height: 40px;
+    border-color: black;
+    border: 1px;
+}
+.pick{
+    background-color: #9F8974;
+    padding-top: 50px;
+    width: 100%;
+    margin: 0;
+}
+.way{
+    display: flex;
+    margin: 30px;
+    padding-bottom: 40px;
+}
+.est{
+    width: 60%;
+}
+.fourth{
+    overflow: hidden;
+}
+.lad{
+    width: 60%;
+}
+.tow{
+    width: 60%;
+}
+.lady{
+    padding-left: 50px;
+    width: 40%;
+}
+.town{
+    width: 40%;
+}
+.link{
+    list-style: none;
+}
+.use{
+    padding-left: 38px;
+}
+.logo{
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+}
+.band{
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+
+}
