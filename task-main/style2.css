@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    padding: 10px 6%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: #9f8974;
+    width: 90%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+        top: 0%;
+        left: 0%;  
+    margin: 0 auto;
+}
+.nav-bar li{
+    color: #fff;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    max-width: auto;
+    grid-template-columns: 5fr 10fr ;
+    grid-template-rows: repeat(0,minmax(150px,auto));
+    display: grid;
+    grid-column-gap: 13px;
+    align-content: center;
+    margin: 80px 0px;
+    border-bottom: solid 1px #8b8585;
+    height: 120px;
+    margin-bottom: 0px;
+}
+.container div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-content: center;
+    width: 100%;
+}
+.container div p{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+/* .rag{
+    background-image: url(/img/wallpaperflare.com_wallpaper\(7\).jpg);
+    max-width: 1500px;
+    overflow: hidden;
+  
+    height: 10000px;
+} */
+.img-prop img{
+    padding: 30px 25px;
+    width: 35%;
+    margin: 50px auto;
+    padding-bottom: 30px; 
+}
+
+.reps{
+    display: flex;
+}
+.reps-image{
+    max-width: 90px;
+}
+.reps-image img{
+    width: 100%;
+    margin: 190px 0px;
+}
+.reps-text{
+    font-size: 25px;
+    margin: 250px 40px;
+    padding: 10px 0px;
+    color: #fff;
+    max-width: 40%;
+    font-family: 'Inter', sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    align-items:center;
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 100vh;
+}
+
+.flex8{
+    margin: 10px 0px;
+    height: 12%;
+}
+
+
+.flex-in{
+    display: flex;
+    padding: 15px;
+    margin: 130px auto;
+}
+
+.in1{
+    color: #ffffff;
+    width: 900px;
+    font-size: 40px;
+    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin: 40px 20px;
+}
+
+.in1 p{
+    font-size: 25px;
+}
+
+.arrow{
+    margin: 80px auto;
+    padding-left: 170px;
+}
+
+
+.btnz{
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #a08e8e;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right : 20px;
+    margin: 0px 10px;
+}
+
+.if{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: absolute;
+    top: 800px;
+    left: 220px;
+    background-color: #fff;
+    width: 900px;
+    height: 150px;
+}
+
+.if-1{
+    padding: 25px 10px;
+    display: flex;
+}
+.if-1 div{
+    padding: 10px auto;
+    font: 15px;
+    margin-left: 30px;
+}
+
+.if-1 img{
+    margin: 0px auto;
+    height: 150px;
+    width: 100px;
+}
+.grid-line{
+    max-width: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(0,minmax(150px,auto));
+    margin: 120px 90px;
+    display: grid;
+    grid-column-gap: 13px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.home1{
+    display: flex;
+    line-height: 35px;
+   
+}
+.home1 h1{
+    font-size: 40px;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.home1 p{
+    line-height: 30px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.home1 img{
+    width: 10%;
+    height: 17%;
+}
